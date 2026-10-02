@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "iceclient",
+  "version": "${version}",
+  "name": "Ice Client",
+  "description": "Ice Client - Chest ESP",
+  "authors": ["Ice"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["fr.iceclient.IceClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
